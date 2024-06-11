@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $to = "xolal5783@gmail.com";
     $subject = "New Message From Your Website";
-    $body = "Name: $name\nEmail: $email\nMessage:n$message"
+    $body = "Name: $name\nEmail: $email\nMessage:$message"
 
     if (mail($to, $subject, $body)) {
         echo "Message sent successfully!"
