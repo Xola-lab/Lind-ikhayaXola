@@ -48,19 +48,19 @@ body {
     padding-top: 50px;
     padding-left: 20px;
     padding-bottom: 20px;
-    width: 100%; /* Adjusted to 100% */
+    width: 100%;
     background: white;
     cursor: pointer;
 }
 
 .intro {
     display: flex;
-    flex-direction: column; /* Changed to column for better alignment on smaller screens */
+    flex-direction: row; /* Default to row for larger screens */
     padding-right: 30px;
 }
 
 .text {
-    flex: 1;
+    flex: 2;
     padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
@@ -76,12 +76,13 @@ body {
 
 .button-container {
     display: flex;
-    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    flex-direction: row; /* Default to row for larger screens */
     align-items: center;
+    justify-content: center;
 }
 
 .get-resume, .hire {
-    margin: 10px 0; /* Adjusted margin */
+    margin: 0 10px;
     background-color: transparent;
     border-radius: 20px;
     padding: 10px 20px;
@@ -103,7 +104,7 @@ body {
 /* About Section */
 .about {
     display: flex;
-    flex-direction: column; /* Changed to column for better alignment on smaller screens */
+    flex-direction: row; /* Default to row for larger screens */
     padding-right: 30px;
 }
 
@@ -112,16 +113,16 @@ body {
     padding-top: 90px;
     padding-left: 20px;
     padding-bottom: 20px;
-    width: 100%; /* Adjusted to 100% */
+    width: 100%;
     background: white;
     cursor: pointer;
 }
 
 .about-text {
-    flex: 1;
+    flex: 2;
     padding-top: 50px;
     padding-left: 20px;
-    padding-right: 20px; /* Adjusted padding for smaller screens */
+    padding-right: 60px;
 }
 
 /* Projects Section */
@@ -136,11 +137,11 @@ body {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center-align projects */
+    justify-content: center;
 }
 
 .project {
-    flex: 1 1 30%; /* Adjusted to allow for wrapping */
+    flex: 0 1 30%; /* Default to 30% for larger screens */
     margin: 10px;
     text-align: center;
 }
@@ -156,8 +157,8 @@ body {
 }
 
 .github-button {
-    display: inline-block; /* Adjusted to inline-block */
-    margin-top: 10px; /* Adjusted margin */
+    display: inline-block;
+    margin-top: 10px;
     background-color: transparent;
     border-radius: 20px;
     padding: 10px 20px;
@@ -219,7 +220,7 @@ body {
 }
 
 .contact-item button {
-    display: inline-block; /* Adjusted to inline-block */
+    display: inline-block;
     background-color: transparent;
     border-radius: 20px;
     padding: 10px 20px;
@@ -325,4 +326,3 @@ body {
         padding: 8px;
     }
 }
-
