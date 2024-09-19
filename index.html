@@ -116,18 +116,26 @@
     <section id="Contact">
         <h1 class="contact-heading">CONTACT</h1>
         <div class="contact-section">
-            <div class="contact-info">
+            <form action="https://formspree.io/f/mgvwjvwd" method="POST" class="contact-form">
                 <div class="contact-item">
-                    <img src="Email.png" alt="Email Icon" width="100px">
-                    <p>EMAIL: xolal5783@gmail.com</p>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
                 </div>
                 <div class="contact-item">
-                    <img src="Phone.png" alt="Phone Icon">
-                    <p>PHONE: +27 (064) 823-3390</p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
                 </div>
-            </div>
+                <div class="contact-item">
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <div class="contact-item">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
         </div>
     </section>
+
     <!--Footer-->
     <section>
         <div class="footer">
