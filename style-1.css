@@ -172,19 +172,24 @@ body {
 }
 
 .github-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #333;
-  border-radius: 50px;
-  text-decoration: none;
-  margin-top: 10px;
-  transition: background-color 0.3s ease;
+    display: flex;
+    margin-right: 10px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 176px;
 }
 
 .github-button:hover {
-  background-color: #555;
+  background-color: #000;
+    color: #fff
 }
 
 
