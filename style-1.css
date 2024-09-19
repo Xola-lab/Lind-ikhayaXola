@@ -200,6 +200,14 @@ body {
     padding: 20px;
 }
 
+.contact-heading {
+    padding-bottom: 0%;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .contact-form {
     display: inline-block;
     text-align: left;
