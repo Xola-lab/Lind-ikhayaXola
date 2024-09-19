@@ -1,11 +1,11 @@
-/*Body*/
+/* Body */
 body {
     margin: auto;
     font-family: Poppins, sans-serif;
     background-color: white;
-  }
+}
 
-/*Navigation Bar*/
+/* Navigation Bar */
 .navigation {
     background-color: black;
     display: flex;
@@ -15,7 +15,8 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-  }
+    padding: 10px;
+}
 
 .name {
     font-weight: bold;
@@ -25,10 +26,11 @@ body {
 
 .links {
     display: flex;
+    flex-wrap: wrap; /* Allow links to wrap if needed */
 }
   
 .navigation a {
-    margin-right: 10px;
+    margin: 0 10px;
     padding: 10px 16px;
     text-decoration: none;
     font-size: 16px;
@@ -40,33 +42,31 @@ body {
     color: black;
 }
 
-/*Home Page*/
+/* Home Page */
 .my-image {
     display: flex;
     padding-top: 50px;
     padding-left: 20px;
     padding-bottom: 20px;
-    width: 10;
+    width: 100%; /* Adjusted to 100% */
     background: white;
-    display: flex;
     cursor: pointer;
 }
 
 .intro {
     display: flex;
-    flex-direction: center;
+    flex-direction: column; /* Changed to column for better alignment on smaller screens */
     padding-right: 30px;
 }
 
 .text {
-    flex: 2;
+    flex: 1;
     padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .heading1 {
-    text-wrap: balance;
     font-size: 80px;
 }
 
@@ -76,11 +76,12 @@ body {
 
 .button-container {
     display: flex;
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    align-items: center;
 }
 
-.get-resume {
-    display: flex;
-    margin-right: 10px;
+.get-resume, .hire {
+    margin: 10px 0; /* Adjusted margin */
     background-color: transparent;
     border-radius: 20px;
     padding: 10px 20px;
@@ -94,35 +95,15 @@ body {
     width: 176px;
 }
 
-.hire {
-    display: flex;
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    width: 176px;
-}
-
-.get-resume:hover {
-    background-color: #000;
-    color: #fff
-  }
-
-  .hire:hover {
+.get-resume:hover, .hire:hover {
     background-color: #000;
     color: #fff;
-  }
+}
 
-/*About Section*/
+/* About Section */
 .about {
     display: flex;
-    flex-direction: center;
+    flex-direction: column; /* Changed to column for better alignment on smaller screens */
     padding-right: 30px;
 }
 
@@ -131,20 +112,19 @@ body {
     padding-top: 90px;
     padding-left: 20px;
     padding-bottom: 20px;
-    width: 10;
+    width: 100%; /* Adjusted to 100% */
     background: white;
-    display: flex;
     cursor: pointer;
 }
 
 .about-text {
-    flex: 2;
+    flex: 1;
     padding-top: 50px;
     padding-left: 20px;
-    padding-right: 60px;
+    padding-right: 20px; /* Adjusted padding for smaller screens */
 }
 
-/*Projects Section*/
+/* Projects Section */
 .projects-heading {
     padding-bottom: 0%;
     font-size: 80px;
@@ -156,15 +136,19 @@ body {
 .projects {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Center-align projects */
 }
 
 .project {
-    flex: 0 0 30%; /*30% occupation for each column*/
+    flex: 1 1 30%; /* Adjusted to allow for wrapping */
     margin: 10px;
+    text-align: center;
 }
 
 .project img {
     border-radius: 5px;
+    width: 100%; /* Ensure image scales correctly */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .for-more-info {
@@ -172,8 +156,8 @@ body {
 }
 
 .github-button {
-    display: flex;
-    margin-right: 10px;
+    display: inline-block; /* Adjusted to inline-block */
+    margin-top: 10px; /* Adjusted margin */
     background-color: transparent;
     border-radius: 20px;
     padding: 10px 20px;
@@ -188,12 +172,11 @@ body {
 }
 
 .github-button:hover {
-  background-color: #000;
-    color: #fff
+    background-color: #000;
+    color: #fff;
 }
 
-
-/*Contact Section*/
+/* Contact Section */
 .contact-section {
     text-align: center;
     margin: 0 auto;
@@ -211,7 +194,7 @@ body {
 .contact-form {
     display: inline-block;
     text-align: left;
-    max-width: 500px;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -236,7 +219,7 @@ body {
 }
 
 .contact-item button {
-    display: flex;
+    display: inline-block; /* Adjusted to inline-block */
     background-color: transparent;
     border-radius: 20px;
     padding: 10px 20px;
@@ -255,8 +238,7 @@ body {
     color: #fff;
 }
 
-
-/*Footer*/
+/* Footer */
 .footer {
     background-color: #000;
     color: #fff;
@@ -264,3 +246,83 @@ body {
     padding: 20px;
     width: 100%;
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .navigation a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .heading1 {
+        font-size: 60px;
+    }
+
+    .projects-heading {
+        font-size: 60px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .project {
+        flex: 1 1 45%; /* Adjust for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .navigation .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation a {
+        margin: 5px 0;
+    }
+
+    .heading1 {
+        font-size: 40px;
+    }
+
+    .projects-heading {
+        font-size: 40px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .project {
+        flex: 1 1 100%; /* Adjust for mobile phones */
+    }
+
+    .text {
+        padding-right: 10px;
+    }
+
+    .about-text {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-heading {
+        font-size: 30px;
+    }
+
+    .contact-item label {
+        font-size: 16px;
+    }
+
+    .contact-item input, .contact-item textarea, .contact-item button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
