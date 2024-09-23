@@ -1,373 +1,140 @@
-/*Body*/
+/* Body */
 body {
-    margin: auto;
+    margin: 0;
+    padding: 0;
     font-family: Poppins, sans-serif;
     background-color: white;
-  }
+    overflow-x: hidden; /* Prevents horizontal scroll on small devices */
+}
 
-/*Navigation Bar*/
+/* Navigation Bar Adjustments */
 .navigation {
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-  }
-
-.name {
-    font-weight: bold;
-    color: #fff;
-    padding-left: 10px;
 }
 
-.links {
-    display: flex;
-}
-  
-.navigation a {
-    margin-right: 10px;
-    padding: 10px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-}
-  
-.navigation a:hover {
-    background-color: white;
-    color: black;
+/* Image Responsiveness */
+img {
+    max-width: 100%; /* Ensures images don't overflow */
+    height: auto;
 }
 
-/*Home Page*/
-.my-image {
-    display: flex;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    width: 10;
-    background: white;
-    display: flex;
-    cursor: pointer;
-}
-
+/* Home Page (Adjusting the Layout) */
 .intro {
     display: flex;
-    flex-direction: center;
-    padding-right: 30px;
+    flex-wrap: wrap; /* Allows the image and text to wrap on small screens */
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px; /* Adds margin to avoid overlap with navbar */
+}
+
+.my-image {
+    flex: 1 1 100%; /* Full width on small screens */
+    text-align: center; /* Center the image */
 }
 
 .text {
-    flex: 2;
-    padding-top: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.heading1 {
-    text-wrap: balance;
-    font-size: 80px;
-}
-
-.subheading {
-    color: rgba(93, 100, 93, 0.933);
-}
-
-.button-container {
-    display: flex;
-}
-
-.get-resume {
-    display: flex;
-    margin-right: 10px;
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    width: 176px;
-}
-
-.hire {
-    display: flex;
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    width: 176px;
-}
-
-.get-resume:hover {
-    background-color: #000;
-    color: #fff
-  }
-
-  .hire:hover {
-    background-color: #000;
-    color: #fff;
-  }
-
-/*About Section*/
-.about {
-    display: flex;
-    flex-direction: center;
-    padding-right: 30px;
-}
-
-.book-glass {
-    display: flex;
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    width: 10;
-    background: white;
-    display: flex;
-    cursor: pointer;
-}
-
-.about-text {
-    flex: 2;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 60px;
-}
-
-/*Projects Section*/
-.projects-heading {
-    padding-bottom: 0%;
-    font-size: 80px;
+    flex: 1 1 100%; /* Full width on small screens */
     text-align: center;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.project {
-    flex: 0 0 30%; /*30% occupation for each column*/
-    margin: 10px;
-}
-
-.project img {
-    border-radius: 5px;
-}
-
-.for-more-info {
-    text-align: center;
-}
-
-.github-button {
-    display: flex;
-    margin-right: 10px;
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    width: 176px;
-}
-
-.github-button:hover {
-  background-color: #000;
-    color: #fff
-}
-
-
-/*Contact Section*/
-.contact-section {
-    text-align: center;
-    margin: 0 auto;
     padding: 20px;
 }
 
-.contact-heading {
-    padding-bottom: 0%;
-    font-size: 80px;
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 1 1 100%; /* Full width on small screens */
+    padding: 20px;
     text-align: center;
-    font-weight: bold;
+}
+
+/* Projects Section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project {
+    flex: 0 0 48%; /* Adjusts to two-column layout on tablets */
     margin-bottom: 20px;
 }
 
-.contact-form {
-    display: inline-block;
-    text-align: left;
-    max-width: 500px;
-    width: 100%;
-}
-
-.contact-item {
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.contact-item label {
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.contact-item input, .contact-item textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
+.project img {
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
-.contact-item button {
-    display: flex;
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #000;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    width: 176px;
-}
-
-.contact-item button:hover {
-    background-color: #000;
-    color: #fff;
-}
-
-
-/*Footer*/
+/* Footer Styling */
 .footer {
     background-color: #000;
     color: #fff;
     text-align: center;
     padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Contact Section */
+.contact-form {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.contact-item input, .contact-item textarea {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.contact-item button {
+    display: block;
     width: 100%;
 }
 
-/* General Mobile Styles (for screens up to 600px) */
-@media only screen and (max-width: 600px) {
+/* Media Queries */
+@media (max-width: 600px) {
     .navigation {
         flex-direction: column;
         text-align: center;
     }
 
-    .intro {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .my-image img {
-        width: 100%;
-        height: auto;
-    }
-
-    .heading1 {
-        font-size: 40px;
-    }
-
-    .subheading {
-        font-size: 20px;
-    }
-
     .button-container {
         flex-direction: column;
         align-items: center;
     }
 
     .project {
-        flex: 0 0 100%;
-        margin: 10px 0;
+        flex: 0 0 100%; /* Full-width project cards on small screens */
     }
 
     .contact-form {
-        width: 90%;
+        width: 90%; /* Adjust contact form width */
     }
 }
 
-/* Tablet Styles (for screens between 601px and 900px) */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    .navigation {
-        justify-content: center;
-        padding: 10px;
-    }
-
-    .intro {
-        flex-direction: column;
-        padding: 30px;
-    }
-
-    .my-image img {
-        width: 80%;
-        height: auto;
-    }
-
-    .heading1 {
-        font-size: 60px;
-    }
-
-    .subheading {
-        font-size: 25px;
-    }
-
-    .button-container {
-        justify-content: center;
-    }
-
+@media (min-width: 601px) and (max-width: 900px) {
     .project {
         flex: 0 0 48%; /* Two-column layout */
-    }
-
-    .contact-form {
-        width: 80%;
-    }
-}
-
-/* Large Screens (for screens above 900px) */
-@media only screen and (min-width: 901px) {
-    .my-image img {
-        width: 512px;
-        height: 512px;
-    }
-
-    .heading1 {
-        font-size: 80px;
-    }
-
-    .subheading {
-        font-size: 30px;
-    }
-
-    .button-container {
-        justify-content: flex-start;
-    }
-
-    .project {
-        flex: 0 0 30%; /* Three-column layout */
-    }
-
-    .contact-form {
-        width: 60%;
     }
 }
