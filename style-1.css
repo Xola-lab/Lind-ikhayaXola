@@ -71,7 +71,7 @@ img {
 
 .heading1 {
     text-wrap: balance;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .subheading {
@@ -131,6 +131,11 @@ img {
     flex: 1 1 100%; /* Full width on small screens */
     padding: 20px;
     text-align: center;
+}
+
+.about-heading {
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Projects Section */
