@@ -85,7 +85,6 @@ img {
     border-radius: 20px;
     padding: 10px 20px;
     text-decoration: none;
-    text-align: center;
     color: #000;
     font-size: 16px;
     font-weight: bold;
@@ -101,7 +100,6 @@ img {
     border-radius: 20px;
     padding: 10px 20px;
     text-decoration: none;
-    text-align: center;
     color: #000;
     font-size: 16px;
     font-weight: bold;
@@ -143,8 +141,6 @@ img {
 .about-image {
     flex: 1 1 100%;
     text-align: center;
-    padding: 20px;
-    border-radius: 5px;
 }
 
 /* Projects Section */
@@ -180,7 +176,6 @@ img {
     text-decoration: none;
     color: #000;
     font-size: 16px;
-    text-align: center;
     font-weight: bold;
     cursor: pointer;
     align-items: center;
@@ -232,7 +227,6 @@ img {
     border-radius: 20px;
     padding: 10px 20px;
     text-decoration: none;
-    text-align: center;
     color: #000;
     font-size: 16px;
     font-weight: bold;
@@ -259,6 +253,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .project {
