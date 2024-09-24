@@ -91,6 +91,15 @@ img {
     color: rgba(93, 100, 93, 0.933);
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto; 
+    width: 100%; 
+}
+
 .get-resume {
     display: flex;
     margin-right: 10px;
