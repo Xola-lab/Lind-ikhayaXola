@@ -179,6 +179,7 @@ img {
 
 .project {
     flex: 0 0 48%; /* Adjusts to two-column layout on tablets */
+    text-align: center;
     margin-bottom: 20px;
 }
 
