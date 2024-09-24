@@ -243,6 +243,11 @@ img {
     font-weight: bold;
 }
 
+.contact-item {
+    display: flex;
+    justify-content: center;
+}
+
 .contact-item input, .contact-item textarea {
     width: 100%;
     box-sizing: border-box; /* Ensures padding doesn't affect width */
