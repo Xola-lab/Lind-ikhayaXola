@@ -143,6 +143,7 @@ img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 /* Projects Section */
@@ -195,7 +196,6 @@ img {
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 20px;
     position: relative;
     width: 100%;
     bottom: 0;
