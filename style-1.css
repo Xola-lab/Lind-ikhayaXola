@@ -245,9 +245,8 @@ img {
 
 .contact-item {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    margin-top: 20px;
 }
 
 .contact-item input, .contact-item textarea {
