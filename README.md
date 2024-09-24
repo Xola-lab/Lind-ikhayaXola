@@ -3,8 +3,8 @@ This a Personal Project I conducted creating a Portfolio Website as an Aspiring 
 
 ### Overview of the Project
 There are only two files:
-(1) An HTML file (index.html) containing the structure of the portfolio, and
-(2) A CSS file (styles-1.css) containing the styling of the site.
+- An HTML file (index.html) containing the structure of the portfolio, and
+- A CSS file (styles-1.css) containing the styling of the site.
 
 The site has a fixed Navigation Bar with the following items:
 - "Home", which is self-explanatory, but it is more of a landing page. It contains
@@ -19,4 +19,6 @@ which will redirect the reader to the specific project on Github.
 The last two items are direct links to my Github and LinkedIn Profiles.
 
 It would be remiss of me not to mention that this project is still in the workshop. You see, my Web Development skills need a little work.
-Follow me on this journey, as I try to develop as a Data Analyst (and, most importantly, as a Programmer in general) and create a better Portfolio
+Follow me on this journey, as I try to develop as a Data Analyst (and, most importantly, as a Programmer in general) and to create a better Portfolio.
+
+(And please, do share your thoughts and opinions)
