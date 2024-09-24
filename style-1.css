@@ -253,13 +253,14 @@ img {
     }
 
     .button-container {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Ensure the buttons are side-by-side */
+    width: 100%; 
+    margin: 0 auto;
     }
+
 
     .project {
         flex: 0 0 100%; /* Full-width project cards on small screens */
