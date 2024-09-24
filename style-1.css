@@ -48,7 +48,19 @@ img {
     height: auto;
 }
 
-/* Home Page (Adjusting the Layout) */
+/* Home Page */
+.content-section {
+    display: flex;
+    flex-direction: column; /* Ensures content flows vertically */
+    align-items: center; /* Centers all child elements horizontally */
+    justify-content: center; /* Centers content vertically */
+    padding: 20px;
+    margin: 0 auto; /* Centers the content section within its parent */
+    max-width: 1200px; /* Prevents content from stretching too wide on large screens */
+    width: 100%; 
+}
+
+
 .intro {
     display: flex;
     flex-wrap: wrap; 
