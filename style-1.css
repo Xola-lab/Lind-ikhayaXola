@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Poppins, sans-serif;
     background-color: white;
-    overflow-x: hidden; /* Prevents horizontal scroll on small devices */
+    overflow-x: hidden;
 }
 
 /* Navigation Bar */
@@ -44,7 +44,7 @@ body {
 
 /* Image Responsiveness */
 img {
-    max-width: 100%; /* Ensures images don't overflow */
+    max-width: 100%; 
     height: auto;
 }
 
@@ -253,7 +253,8 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .project {
