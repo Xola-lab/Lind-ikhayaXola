@@ -237,7 +237,7 @@ img {
 }
 
 /* Media Queries */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .navigation {
         flex-direction: column;
         text-align: center;
@@ -255,12 +255,18 @@ img {
     }
 
     .contact-form {
-        width: 90%; /* Adjust contact form width */
+        width: 98%; /* Adjust contact form width */
     }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
     .project {
         flex: 0 0 48%; /* Two-column layout */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 100%;
     }
 }
