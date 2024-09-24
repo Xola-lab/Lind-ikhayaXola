@@ -51,8 +51,9 @@ img {
 /* Home Page (Adjusting the Layout) */
 .intro {
     display: flex;
-    flex-wrap: wrap; /* Allows the image and text to wrap on small screens */
+    flex-wrap: wrap; 
     align-items: center;
+    justify-content: center; /* Centering the child elements */
     padding: 20px;
     margin-top: 60px; /* Adds margin to avoid overlap with navbar */
 }
