@@ -271,7 +271,7 @@ img {
 /* Media Queries */
 @media (max-width: 768px) {
     .navigation {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
     }
 
