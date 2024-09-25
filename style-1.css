@@ -348,3 +348,40 @@ img {
         overflow: visible;
     }
 }
+
+/* Hide the navigation links on smaller devices by default */
+@media (max-width: 768px) {
+    .links {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 250px;
+        height: 100%;
+        background-color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease-in-out;
+    }
+
+    /* The hamburger menu */
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: white;
+        margin-right: 20px;
+    }
+
+    /* Hide links until the menu is toggled */
+    .navigation a {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* When the side panel is toggled */
+    .links.show {
+        right: 0;
+    }
+}
