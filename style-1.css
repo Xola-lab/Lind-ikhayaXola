@@ -179,7 +179,7 @@ img {
 }
 
 .project {
-    flex: 1 1 calc(33.333% - 30px); /* 3 columns on larger screens, accounting for gap */
+    flex: 1 1 calc(32% - 30px); /* 3 columns on larger screens, accounting for gap */
     box-sizing: border-box;
     display: flex;
     flex-direction: column; /* Keeps image on top and text below */
