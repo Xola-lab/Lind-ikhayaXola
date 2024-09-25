@@ -327,6 +327,10 @@ img {
     .contact-form {
         width: 100%; 
     }
+
+    .contact-heading {
+    text-align: center;
+    }
     
 }
 
@@ -346,6 +350,11 @@ img {
     .projects {
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+
+    .projects-heading {
+    text-align: center;
     }
 }
 
