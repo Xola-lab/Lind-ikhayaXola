@@ -246,6 +246,9 @@ img {
 .contact-item {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 .contact-item input, .contact-item textarea {
