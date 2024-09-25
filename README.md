@@ -6,6 +6,8 @@ There are only two files:
 - An HTML file (index.html) containing the structure of the portfolio, and
 - A CSS file (styles-1.css) containing the styling of the site.
 
+Inside the HTML (before the body closes) is a JavaScript code segment that creates a side panel for smaller devices.
+
 The site has a fixed Navigation Bar with the following items:
 - "Home", which is self-explanatory, but it is more of a landing page. It contains
 two rounded buttons, "View Resume" and "Hire" (which takes you to the "contacts" section
