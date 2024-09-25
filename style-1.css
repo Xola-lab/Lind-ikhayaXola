@@ -243,6 +243,12 @@ img {
     font-weight: bold;
 }
 
+.contact-item label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between label and input */
+    display: block; /* Ensure label is on its own line */
+}
+
 .contact-item {
     display: flex;
     flex-direction: column;
