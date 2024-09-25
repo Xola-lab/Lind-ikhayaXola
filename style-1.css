@@ -339,6 +339,9 @@ img {
 @media (max-width: 768px) {
     .project {
         flex: 1 1 100%; /* 1 column on smaller screens */
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 20px;
     }
 }
 
