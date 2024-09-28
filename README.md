@@ -1,26 +1,40 @@
-# WELCOME
-This a Personal Project I conducted creating a Portfolio Website as an Aspiring Business Analyst/Data Analyst.
+# Lind'ikhaya Xola Portfolio
 
-### Overview of the Project
-There are only two files:
-- An HTML file (index.html) containing the structure of the portfolio, and
-- A CSS file (styles-1.css) containing the styling of the site.
+### Description:
+Welcome to my professional portfolio website, where I showcase my skills, expertise, and projects as a Data Analyst and Web Developer. The site is built using HTML, CSS, and JavaScript to provide a clean, responsive, and user-friendly experience across all devices.
 
-Inside the HTML (before the body closes) is a JavaScript code segment that creates a side panel for smaller devices.
+### Key Features:
 
-The site has a fixed Navigation Bar with the following items:
-- "Home", which is self-explanatory, but it is more of a landing page. It contains
-two rounded buttons, "View Resume" and "Hire" (which takes you to the "contacts" section
-explained below).
-- "About", a brief description of myself.
-- "Projects", my favourite. This item sends you to my projects section, where I briefly explain
-the process in my Data Analysis projects, with a rounded button at the bottom of each project
-which will redirect the reader to the specific project on Github.
-- "Contact", containing a form the reader can fill to get in touch.
+- Responsive design optimized for desktop and mobile.
 
-The last two items are direct links to my Github and LinkedIn Profiles.
+- Project showcase with detailed descriptions and GitHub links.
 
-It would be remiss of me not to mention that this project is still in the workshop. You see, my Web Development skills need a little work.
-Follow me on this journey, as I try to develop as a Data Analyst (and, most importantly, as a Programmer in general) and to create a better Portfolio.
+- Skills section highlighting proficiency in data analysis, Python, Excel, SQL, and more.
 
-(And please, do share your thoughts and opinions)
+- Clean, minimalist design for easy navigation and readability.
+
+
+### Technologies Used:
+
+- HTML5
+
+- CSS3 (including Flexbox for layout)
+
+- JavaScript
+
+- Media queries for responsive design
+
+
+### Sections of the Portfolio:
+
+1. About Me – An overview of my background and expertise.
+
+
+2. Projects – A selection of my data analysis and web development projects with links to GitHub repositories.
+
+
+4. Contact – A simple way to get in touch with me via email or LinkedIn.
+
+### Visit the Site:
+
+How to View: Visit the portfolio site at xola-lab.github.io/Lind-ikhayaXola.
