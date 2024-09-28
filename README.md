@@ -5,7 +5,7 @@ Welcome to my professional portfolio website, where I showcase my skills, expert
 
 ### Key Features:
 
-- Responsive design optimized for desktop and mobile.
+- Responsive design optimised for desktop and mobile.
 
 - Project showcase with detailed descriptions and GitHub links.
 
@@ -34,6 +34,8 @@ Welcome to my professional portfolio website, where I showcase my skills, expert
 
 
 4. Contact – A simple way to get in touch with me via email or LinkedIn.
+
+There's also a Navigation Bar, which includes these sections above and links to my GitHub and LinkedIn Profiles.
 
 ### Visit the Site:
 
