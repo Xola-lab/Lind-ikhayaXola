@@ -1,7 +1,7 @@
 # Lind'ikhaya Xola Portfolio
 
 ### Description:
-Welcome to my professional portfolio website, where I showcase my skills, expertise, and projects as a Data Analyst and Web Developer. The site is built using HTML, CSS, and JavaScript to provide a clean, responsive, and user-friendly experience across all devices.
+Welcome to my professional portfolio website, where I showcase my skills, expertise, and projects as a Data Analyst. The site is built using HTML, CSS, and JavaScript to provide a clean, responsive, and user-friendly experience across all devices.
 
 ### Key Features:
 
