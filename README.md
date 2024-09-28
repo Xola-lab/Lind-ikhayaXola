@@ -39,4 +39,4 @@ There's also a Navigation Bar, which includes these sections above and links to 
 
 ### Visit the Site:
 
-How to View: Visit the portfolio site at xola-lab.github.io/Lind-ikhayaXola.
+Visit the portfolio site at: https://xola-lab.github.io/Lind-ikhayaXola.
